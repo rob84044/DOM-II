@@ -69,18 +69,14 @@ inputFieldArray = Array.from(allInputFields);
   });
 
 
-  // secBorder = document.querySelectorAll('.destination');
-
-  // secBorder.forEach(function(border){
-  //   inputField.addEventListener('load', function(){
-  //     border.target.style.border = '1px solid orange';
-  // })
+//Creates a initial alert once the page loads
 
   window.addEventListener('load', function(event) {
     alert('Every time you refresh me a baby seal dies');
     event.stopPropagation();
 });
 
+// The following code is for when text is entered in the first name field of each form
 
 
 
@@ -88,4 +84,3 @@ inputFieldArray = Array.from(allInputFields);
 // element.addEventListener('keydown', CallBack);
 // element.addEventListener('wheel', CallBack);
 // element.addEventListener('drag / drop', CallBack);
-// element.addEventListener('load', CallBack);
